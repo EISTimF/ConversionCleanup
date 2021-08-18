@@ -3,7 +3,7 @@
         Dim cleanedUp As String
 
         cleanedUp = txt_orig.Text
-
+        ' testing
         cleanedUp = cleanedUp.Replace(".ToString ", ".ToString() ")
         cleanedUp = cleanedUp.Replace(".ToString,", ".ToString(),")
         cleanedUp = cleanedUp.Replace(".ToString)", ".ToString())")
